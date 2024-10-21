@@ -31,7 +31,12 @@ def move_enemies(enemy_list):
         enemy[1]+=enemy_speed
     
 # Check if enemy is off-screen
-def check_off
+def check_off_screen(enemy_list):
+    global score
+    for enemy in enemy_list[:] :
+        if enemy[1] > height:
+            score+=1
+            enemy_list.remove(enemy)
 # Increment score for each enemy that goes off-screen
 
 
