@@ -1,5 +1,4 @@
 # ERC-CV-Assignment-4-Question-1
-import cv2
 
 
 
